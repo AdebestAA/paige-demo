@@ -31,11 +31,12 @@ const menuLinks:menuLinksTypes[] = [
     {
         id:2,
         name:"About",
+        subLinks:[{display:"Packages",id:"packages"},{display:"Train",id:"#"},{display:"project",id:"#"}]
     },
     {
         id:3,
         name:"Services",
-        // subLinks:[{display:"Workflow Automation",id:"workflowAutomation"},{display:"Recruitment",id:"recruitment"},{display:"Train and Development",id:"trainingAndDevelopment"},{display:"Worklife Integration Consulting",id:"worklifeIntegrationConsulting"}]
+        subLinks:[{display:"Workflow Automation",id:"workflowAutomation"},{display:"Recruitment",id:"recruitment"},{display:"Train and Development",id:"trainingAndDevelopment"},{display:"Worklife Integration Consulting",id:"worklifeIntegrationConsulting"}]
     },
     {
 id:4,

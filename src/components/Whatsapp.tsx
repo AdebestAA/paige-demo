@@ -4,8 +4,8 @@ import Link from "next/link";
 import { FaWhatsapp } from "react-icons/fa";
 
 
-const PHONE   = "2347052043453";   
-const MESSAGE = "text Paige"; 
+const PHONE   = "2348144835189";   
+const MESSAGE = "text Ade"; 
 
 const href    = `https://wa.me/${PHONE}?text=${encodeURIComponent(MESSAGE)}`;
 
