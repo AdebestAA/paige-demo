@@ -53,12 +53,12 @@ const testimonyList:{
 const Testimonies = () => {
   return (
 
-    <div className='my-4 text-grayOne'>
+    <div className='my-16 text-grayOne'>
 <header className='py-4'>
 
 
   
-<h1 className=' text-[1.7rem] text-center font-bold  text-primary uppercase'>What Our Candidates say</h1>
+<h1 className=' text-[1.7rem] text-center font-bold  text-primary uppercase animated-gradient-text-two'>What Our Candidates say</h1>
 {/* <h1 className=' text-[2rem] text-center font-bold  leading-[2rem]'>What Our 
     <br />
     Candidates say</h1> */}

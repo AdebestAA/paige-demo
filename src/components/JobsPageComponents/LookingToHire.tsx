@@ -26,7 +26,7 @@ const itemList = [
     },
 ] 
 const LookingToHire = () => {
-  return <div className="">
+  return <div className="my-16">
 <div className="my-4"><h1 className="text-center animated-gradient-text-two text-3xl font-semibold uppercase ">Looking to Hire</h1></div>
 <section className="flex md:justify-between md:flex-row flex-col items-center my-4 text-grayOne">
 {
