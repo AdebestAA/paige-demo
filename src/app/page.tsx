@@ -1,5 +1,8 @@
 
 
+import GrowYourTeam from "@/components/JobsPageComponents/GrowYourTeam";
+import LookingToHire from "@/components/JobsPageComponents/LookingToHire";
+import Testimonies from "@/components/JobsPageComponents/Testimonies";
 import Footer from "@/components/LandingPageComponents/Footer";
 import { Header } from "@/components/LandingPageComponents/Header";
 import { HeroSection } from "@/components/LandingPageComponents/HeroSection";
@@ -7,7 +10,6 @@ import Section from "@/components/LandingPageComponents/Section";
 import Services from "@/components/LandingPageComponents/Services";
 import Sponsors from "@/components/LandingPageComponents/Sponsors";
 
-import SubLinksComponent from "@/components/SubLinksComponent";
 import WhatsApp from "@/components/Whatsapp";
 import Image from "next/image";
 
@@ -20,7 +22,7 @@ const page = () => {
       <Header/>
       <HeroSection/> 
       
-      {/* <Sponsors/> */}
+      <Sponsors/>
   </div>
       <Section/>
       {/* Image */}
@@ -32,6 +34,9 @@ const page = () => {
         src={"/rekrut-paige.jpg"} 
         alt="rekrut-paige" />
       </div> */}
+      <LookingToHire/>
+        <GrowYourTeam/>
+        <Testimonies/>
       <Footer/>
     
     </div>
@@ -39,3 +44,4 @@ const page = () => {
 }
 
 export default page
+

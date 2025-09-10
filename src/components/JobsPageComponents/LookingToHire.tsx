@@ -26,9 +26,9 @@ const itemList = [
     },
 ] 
 const LookingToHire = () => {
-  return <div className="flex md:justify-between md:flex-row  flex-col items-center my-32 text-grayOne">
-
-
+  return <div className="">
+<div className="my-4"><h1 className="text-center animated-gradient-text-two text-3xl font-semibold uppercase ">Looking to Hire</h1></div>
+<section className="flex md:justify-between md:flex-row flex-col items-center my-4 text-grayOne">
 {
     itemList.map((item,index)=>{
         return <div className="w-[80%] xs:w-[50%] md:w-[30%]  flex flex-col items-center md:my-0 my-8 " key={index}>
@@ -39,6 +39,7 @@ const LookingToHire = () => {
         </div>
     })
 }
+    </section>
   </div>
 }
 

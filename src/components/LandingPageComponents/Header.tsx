@@ -31,16 +31,12 @@ const menuLinks:menuLinksTypes[] = [
     {
         id:2,
         name:"About",
-        subLinks:[{display:"Packages",id:"packages"},{display:"Train",id:"#"},{display:"project",id:"#"}]
+        subLinks:[{display:"Packages",id:"packages"},{display:"project",id:"#"}]
     },
     {
         id:3,
         name:"Services",
-        subLinks:[{display:"Workflow Automation",id:"workflowAutomation"},{display:"Recruitment",id:"recruitment"},{display:"Train and Development",id:"trainingAndDevelopment"},{display:"Worklife Integration Consulting",id:"worklifeIntegrationConsulting"}]
-    },
-    {
-id:4,
-name:"Jobs"
+        subLinks:[{display:"Workflow Automation",id:"workflowAutomation"},{display:"Recruitment",id:"recruitment"},{display:"Worklife Integration Consulting",id:"worklifeIntegrationConsulting"}]
     },
     // {
     //     id:4,
@@ -186,10 +182,10 @@ className={`${desktopLinkClass} flex items-center justify-center text-[0.9rem]`}
 <section className=" space-x-2">
     {/* Start Automating */}
 <button
-// onClick={()=> router.push("/jobs")}
+onClick={()=> router.push("/jobs")}
 className='mdlg:inline hidden  text-wht rounded-md lg:h-[40px] h-[30px] lg:px-4 px-2 cursor-pointer   border-[2px] border-primary relative overflow-hidden group' >
 <span className="relative  z-10 transition-colors duration-300 group-hover:text-wht text-primary">
-Start Automating
+Find A Job
 </span>
 <span className="absolute inset-0 bg-primary transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out z-0" />
 </button> 
@@ -276,10 +272,10 @@ Hire a Talent
 
     <div className="flex justify-between py-3 px-2">
     <button
-// onClick={()=> router.push("/jobs")}
+onClick={()=> router.push("/jobs")}
 className='mdlg:hidden inline  text-wht rounded-md lg:h-[40px] h-[30px] lg:px-4 px-2 cursor-pointer   border-[2px] border-primary relative overflow-hidden group bg-primary' >
 <span className="relative  z-10 transition-colors duration-300 group-hover:text-wht text-wht">
-Start Automating
+Find a Job
 </span>
 <span className="absolute inset-0 bg-primary transform -translate-x-full group-hover:translate-x-0 transition-transform duration-300 ease-in-out z-0" />
 </button> 

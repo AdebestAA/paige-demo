@@ -55,10 +55,13 @@ const Testimonies = () => {
 
     <div className='my-4 text-grayOne'>
 <header className='py-4'>
-<h1 className=' text-[2rem] text-center font-bold hidden md-block'>What Our Candidates say</h1>
-<h1 className=' text-[2rem] text-center font-bold md:hidden leading-[2rem]'>What Our 
+
+
+  
+<h1 className=' text-[1.7rem] text-center font-bold  text-primary uppercase'>What Our Candidates say</h1>
+{/* <h1 className=' text-[2rem] text-center font-bold  leading-[2rem]'>What Our 
     <br />
-    Candidates say</h1>
+    Candidates say</h1> */}
 </header>
     <Swiper
     modules={[Autoplay]}

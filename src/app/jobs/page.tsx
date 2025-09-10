@@ -45,8 +45,8 @@ const page = () => {
         <HeroSection/>
         <JobsListComponent/>
         {/* <LookingToHire/> */}
-        {/* <Testimonies/> */}
-        {/* <GrowYourTeam/> */}
+        <Testimonies/>
+        <GrowYourTeam/>
         <Footer/>
         {/* this page is currently undergoing maintenance,please check back later */}
     </div>
